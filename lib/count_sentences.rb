@@ -15,6 +15,6 @@ class String
   end
 
   def count_sentences
-    self.scan(/(\!\ |\. |\?\ )/).size
+    self.scan(/(\w\!|\w\.|\w\?)/).size
   end
 end
